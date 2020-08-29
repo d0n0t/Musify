@@ -10,7 +10,11 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
-
+   dependencies {
+    ...
+    compile 'com.hypertrack:hyperlog:0.0.10'
+    ...
+}
 allprojects {
     repositories {
         google()
